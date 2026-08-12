@@ -1,0 +1,62 @@
+{
+  "model_name": "lightgbm-lambdarank",
+  "model_version": "v1",
+  "dataset_path": "datasets/matching/training_v2.csv",
+  "manifest_path": "datasets/matching/training_v2.csv.manifest.json",
+  "dataset_sha256": "fe99dc12616c270d6ffa8997815ce599ece9fe322f7134f7c59d0b8dac9a753f",
+  "feature_set_identifier": "match-ranking-ltr:v2-cross-encoder",
+  "feature_columns": [
+    "skill_score",
+    "semantic_score",
+    "reranker_score",
+    "seniority_score",
+    "location_score",
+    "matched_skill_count",
+    "missing_skill_count",
+    "required_skill_count",
+    "skill_match_ratio",
+    "missing_skill_ratio",
+    "skill_coverage_gap"
+  ],
+  "row_count": 32,
+  "group_count": 4,
+  "train_row_count": 22,
+  "validation_row_count": 10,
+  "train_group_count": 3,
+  "validation_group_count": 1,
+  "train_group_ids": [
+    7,
+    16,
+    17
+  ],
+  "validation_group_ids": [
+    15
+  ],
+  "train_group_sizes": [
+    2,
+    10,
+    10
+  ],
+  "validation_group_sizes": [
+    10
+  ],
+  "metrics": {
+    "ndcg_at_5": 1.0,
+    "mean_reciprocal_rank": 1.0
+  },
+  "feature_importance": {
+    "semantic_score": 157,
+    "location_score": 71,
+    "matched_skill_count": 47,
+    "skill_score": 30,
+    "reranker_score": 21,
+    "seniority_score": 6,
+    "skill_coverage_gap": 3,
+    "required_skill_count": 1,
+    "skill_match_ratio": 1,
+    "missing_skill_count": 0,
+    "missing_skill_ratio": 0
+  },
+  "pipeline_test_only": true,
+  "warning": "This model is intended only for pipeline testing with the current small dataset."
+}

@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+venv/
+.venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+
+# Cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs
+*.log
+logs/
+
+# User uploads
+uploads/
+
+# ML model artifacts
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.onnx
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Personal / evaluation resumes
+data/evaluation_resumes/
+
+# Generated ML model artifacts
+artifacts/matching/models/*.joblib
+
+# Celery runtime files
+celerybeat-schedule
+celerybeat-schedule.*

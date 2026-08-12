@@ -1,0 +1,32 @@
+{
+  "dataset_name": "careerai-match-training",
+  "dataset_version": "v2",
+  "dataset_path": "datasets/matching/training_v2.csv",
+  "dataset_format": "csv",
+  "dataset_sha256": "fe99dc12616c270d6ffa8997815ce599ece9fe322f7134f7c59d0b8dac9a753f",
+  "generated_at": "2026-08-04T21:49:59.802270+00:00",
+  "feature_set_name": "match-ranking-ltr",
+  "feature_set_version": "v2-cross-encoder",
+  "feature_columns": [
+    "skill_score",
+    "semantic_score",
+    "reranker_score",
+    "seniority_score",
+    "location_score",
+    "matched_skill_count",
+    "missing_skill_count",
+    "required_skill_count",
+    "skill_match_ratio",
+    "missing_skill_ratio",
+    "skill_coverage_gap"
+  ],
+  "label_column": "relevance_grade",
+  "algorithm_version": "hybrid-v3-cross-encoder",
+  "row_count": 32,
+  "label_distribution": {
+    "0": 11,
+    "1": 3,
+    "2": 10,
+    "3": 8
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "resume_id": 17,
+  "labels": [
+    {
+      "job_id": 3,
+      "relevance_grade": 3,
+      "notes": "Strong junior backend match with complete skill overlap and high reranker score"
+    },
+    {
+      "job_id": 8,
+      "relevance_grade": 3,
+      "notes": "Strong Python backend match with complete skill overlap"
+    },
+    {
+      "job_id": 17,
+      "relevance_grade": 2,
+      "notes": "Relevant machine learning role with strong skill overlap"
+    },
+    {
+      "job_id": 18,
+      "relevance_grade": 2,
+      "notes": "Relevant machine learning role with strong skill overlap"
+    },
+    {
+      "job_id": 10,
+      "relevance_grade": 1,
+      "notes": "Machine learning role is related, but defence specialization may require domain experience"
+    },
+    {
+      "job_id": 23,
+      "relevance_grade": 2,
+      "notes": "Relevant machine learning role"
+    },
+    {
+      "job_id": 20,
+      "relevance_grade": 2,
+      "notes": "Relevant machine learning role"
+    },
+    {
+      "job_id": 21,
+      "relevance_grade": 2,
+      "notes": "Relevant machine learning role"
+    },
+    {
+      "job_id": 16,
+      "relevance_grade": 1,
+      "notes": "Related machine learning position, but exact experience requirements are uncertain"
+    },
+    {
+      "job_id": 12,
+      "relevance_grade": 1,
+      "notes": "Related machine learning position, but exact experience requirements are uncertain"
+    }
+  ]
+}

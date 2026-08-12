@@ -1,0 +1,19 @@
+{
+  "dataset_name": "careerai-matching-feedback-eval",
+  "dataset_version": "feedback-v1",
+  "generated_at": "2026-07-15T23:27:42.510812+00:00",
+  "source": "match_feedback",
+  "case_count": 1,
+  "feedback_count": 2,
+  "cases": [
+    {
+      "name": "user-2-resume-7",
+      "user_id": 2,
+      "resume_id": 7,
+      "relevance_grades": {
+        "9": 3,
+        "18": 0
+      }
+    }
+  ]
+}

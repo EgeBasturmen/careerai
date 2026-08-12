@@ -1,0 +1,26 @@
+{
+  "model_name": "random-forest-regressor",
+  "model_version": "v1",
+  "dataset_path": "datasets/matching/training_v1.csv",
+  "manifest_path": "datasets/matching/training_v1.csv.manifest.json",
+  "dataset_sha256": "b9fdf78be9799aa49ffbce59061712c084dddb406ba818e2b906312b705fc8a0",
+  "feature_set_identifier": "match-ranking-baseline:v1-without-match-score",
+  "feature_columns": [
+    "skill_score",
+    "semantic_score",
+    "seniority_score",
+    "location_score",
+    "matched_skill_count",
+    "missing_skill_count",
+    "required_skill_count"
+  ],
+  "row_count": 2,
+  "train_row_count": 2,
+  "test_row_count": 2,
+  "metrics": {
+    "mean_absolute_error": 0.7200000000000001,
+    "root_mean_squared_error": 0.7224956747275378,
+    "r2_score": 0.7679999999999999
+  },
+  "warning": "This model is only for pipeline testing and must not be used in production with the current dataset."
+}

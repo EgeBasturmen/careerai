@@ -1,0 +1,3 @@
+user_id,resume_id,job_id,algorithm_version,skill_score,semantic_score,seniority_score,location_score,matched_skill_count,missing_skill_count,required_skill_count,relevance_grade
+2,7,9,hybrid-v1,25.0,81.13,100.0,50.0,1,3,4,3
+2,7,18,hybrid-v1,0.0,59.92,60.0,100.0,0,1,1,0

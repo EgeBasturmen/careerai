@@ -1,0 +1,55 @@
+{
+  "resume_id": 16,
+  "labels": [
+    {
+      "job_id": 3,
+      "relevance_grade": 3,
+      "notes": "Strong junior backend match with high skill and reranker scores"
+    },
+    {
+      "job_id": 27,
+      "relevance_grade": 3,
+      "notes": "Strong machine learning skill match"
+    },
+    {
+      "job_id": 8,
+      "relevance_grade": 3,
+      "notes": "Strong junior Python backend match"
+    },
+    {
+      "job_id": 18,
+      "relevance_grade": 2,
+      "notes": "Relevant machine learning role but weaker explicit skill overlap"
+    },
+    {
+      "job_id": 17,
+      "relevance_grade": 2,
+      "notes": "Relevant machine learning role but weaker explicit skill overlap"
+    },
+    {
+      "job_id": 2,
+      "relevance_grade": 0,
+      "notes": "Unrelated human resources role"
+    },
+    {
+      "job_id": 9,
+      "relevance_grade": 0,
+      "notes": "Unrelated human resources role"
+    },
+    {
+      "job_id": 23,
+      "relevance_grade": 2,
+      "notes": "Relevant machine learning role"
+    },
+    {
+      "job_id": 11,
+      "relevance_grade": 2,
+      "notes": "Relevant machine learning role"
+    },
+    {
+      "job_id": 20,
+      "relevance_grade": 2,
+      "notes": "Relevant machine learning role"
+    }
+  ]
+}

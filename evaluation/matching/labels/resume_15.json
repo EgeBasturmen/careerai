@@ -1,0 +1,55 @@
+{
+  "resume_id": 15,
+  "labels": [
+    {
+      "job_id": 2,
+      "relevance_grade": 3,
+      "notes": "Direct HR internship match"
+    },
+    {
+      "job_id": 9,
+      "relevance_grade": 3,
+      "notes": "Direct HR internship match"
+    },
+    {
+      "job_id": 18,
+      "relevance_grade": 0,
+      "notes": "Unrelated machine learning role"
+    },
+    {
+      "job_id": 17,
+      "relevance_grade": 0,
+      "notes": "Unrelated machine learning role"
+    },
+    {
+      "job_id": 3,
+      "relevance_grade": 0,
+      "notes": "Unrelated backend role"
+    },
+    {
+      "job_id": 8,
+      "relevance_grade": 0,
+      "notes": "Unrelated Python backend role"
+    },
+    {
+      "job_id": 10,
+      "relevance_grade": 0,
+      "notes": "Unrelated machine learning role"
+    },
+    {
+      "job_id": 23,
+      "relevance_grade": 0,
+      "notes": "Unrelated machine learning role"
+    },
+    {
+      "job_id": 5,
+      "relevance_grade": 0,
+      "notes": "Invalid test job"
+    },
+    {
+      "job_id": 7,
+      "relevance_grade": 0,
+      "notes": "Invalid test job"
+    }
+  ]
+}

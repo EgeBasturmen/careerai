@@ -1,0 +1,27 @@
+{
+  "dataset_name": "careerai-rag",
+  "version": "v1",
+  "cases": [
+    {
+      "case_id": "career-001",
+      "query": "How can I become a Python developer?",
+      "expected_document_ids": [
+        4,
+        7,
+        11
+      ],
+      "category": "career",
+      "language": "en"
+    },
+    {
+      "case_id": "career-002",
+      "query": "What skills are required for backend development?",
+      "expected_document_ids": [
+        8,
+        10
+      ],
+      "category": "career",
+      "language": "en"
+    }
+  ]
+}
