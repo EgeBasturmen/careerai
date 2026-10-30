@@ -48,3 +48,5 @@ artifacts/matching/models/*.joblib
 # Celery runtime files
 celerybeat-schedule
 celerybeat-schedule.*
+.env
+.env.example
